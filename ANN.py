@@ -1,5 +1,5 @@
 import numpy as np
-#single perceptron
+#single perceptron by Bishnu Sharma
 class Perceptron:
     def __init__(self, learning_rate=0.1, epochs=100):
         self.lr = learning_rate
@@ -9,7 +9,8 @@ class Perceptron:
 
 
     def activation(self, z):
-        return 1 if z >= 0 else 0  # Step function
+        return 1 if z >= 0 \
+            else 0  # Step function
 
     def fit(self, X, y):
         n_samples, n_features = X.shape

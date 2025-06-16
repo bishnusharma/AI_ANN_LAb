@@ -1,5 +1,5 @@
 import numpy as np
-#backpropagation
+#backpropagation by Bishnu Shama
 class NeuralNetwork:
     def __init__(self):
         # Network architecture (2-2-1)
