@@ -1,4 +1,5 @@
 import numpy as np
+#backpropagation
 class NeuralNetwork:
     def __init__(self):
         # Network architecture (2-2-1)

@@ -1,11 +1,12 @@
 import numpy as np
-
+#single perceptron
 class Perceptron:
     def __init__(self, learning_rate=0.1, epochs=100):
         self.lr = learning_rate
         self.epochs = epochs
         self.weights = None
         self.bias = None
+
 
     def activation(self, z):
         return 1 if z >= 0 else 0  # Step function
